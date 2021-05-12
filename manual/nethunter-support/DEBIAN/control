@@ -1,0 +1,11 @@
+Package: nethunter-support
+Version: 1.0.3
+Architecture: aarch64
+Maintainer: Hilledkinged
+Installed-Size: 200
+Depends: base
+Section: misc
+Priority: optional
+Homepage: https://ngrok.com
+Description: NGrok
+

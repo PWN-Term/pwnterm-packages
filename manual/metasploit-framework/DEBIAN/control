@@ -1,0 +1,9 @@
+Package: metasploit-framework
+Architecture: aarch64
+Installed-Size: 146979
+Maintainer: Hilledkinged
+Version: 6.0.42
+Homepage: martiniweb.epizy.com
+Depends: libiconv, zlib, autoconf, bison, clang, coreutils, curl, findutils, git, apr, apr-util, libffi, libgmp, libpcap, postgresql, readline, libsqlite, openssl, libtool, libxml2, libxslt, ncurses, pkg-config, wget, make, ruby2, libgrpc, termux-tools, ncurses-utils, tar, termux-elf-cleaner, python, apktool
+Description: Prepacked and prepatched metasploit for pwn-hunter
+

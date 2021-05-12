@@ -1,0 +1,11 @@
+Package: android-pin-bruteforce
+Version: 1.0.2
+Architecture: aarch64
+Maintainer: Hilledkinged
+Installed-Size: 1000
+Depends: nethunter-support, android-tools, libusb
+Section: misc
+Priority: optional
+Homepage: https://ngrok.com
+Description: Pin bruteforce tool
+

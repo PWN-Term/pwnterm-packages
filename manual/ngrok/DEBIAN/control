@@ -1,0 +1,11 @@
+Package: ngrok
+Version: 1.0.0
+Architecture: aarch64
+Maintainer: Hilledkinged
+Installed-Size: 30000
+Depends: base
+Section: misc
+Priority: optional
+Homepage: https://ngrok.com
+Description: NGrok
+

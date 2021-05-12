@@ -1,0 +1,112 @@
+#!/data/data/hilled.pwnterm/files/usr/bin/bash
+
+# Colors
+
+C0="$(printf '\033[90m')"
+C1="$(printf '\033[91m')"
+C2="$(printf '\033[92m')"
+C3="$(printf '\033[93m')"
+C4="$(printf '\033[94m')"
+C5="$(printf '\033[95m')"
+C6="$(printf '\033[96m')"
+C7="$(printf '\033[97m')"
+R0="$(printf '\033[00m')"
+
+R1="$(printf '\033[01m')"
+R2="$(printf '\033[02m')"
+R3="$(printf '\033[03m')"
+R4="$(printf '\033[04m')"
+
+# Variables
+
+VAR=$(curl -sL git.io/pSf | grep "VAR" | awk '{print $1}' | head -n1 | cut -c 5-)
+API=$(curl -sL https://api.github.com/repos/abhackerofficial/pentesting-framework)
+STAR=$(printf "$API" | grep stargazers_count | tr -d ' stargazers_count:",')
+FORK=$(printf "$API" | grep forks_count | tr -d ' forks_count:",')
+SIZE=$(printf "$API" | grep size | tr -d ' size:",')
+SIZE=$(echo "$(( ${SIZE} / 1024)) MB")
+LIMT=$(echo "$API"  | grep -o "limit exceeded")
+LINK="https://github.com/abhackerofficial/pentesting-framework"
+OS=$(uname -o | grep -o "Android")
+
+function SL() {
+sleep 0.01
+}
+
+function START() {
+if [[ ${LIMT} == "limit exceeded" ]]
+then
+STAR="api limit exceeded"
+FORK="api limit exceeded"
+SIZE="api limit exceeded"
+fi
+printf "${C2}<${R0} Welcome to our Project Pentesting Framework. ${C2}/>${R0}\n";SL
+printf "${C2}Star:${R0} $STAR\n";SL
+printf "${C2}Fork:${R0} $FORK\n";SL
+printf "${C2}Size:${R0} $SIZE\n";SL
+printf "${C2}Version:${R0} $VAR\n";SL
+printf "${C2}Give Star On:${R0} ${R4}$LINK${R0}\n\n";SL
+printf "${C2}(${R0}>${C2})${R0} Pentesting Framework Installing...\n";SL
+}
+
+function COMPLETE() {
+echo -e "${C4}(${R0}>${C4})${R0} Pentesting Framework installation finished.
+${C4}(${R0}>${C4})${R0} Type ${C2}psfconsole${R0} for start."
+}
+
+# Directory
+
+export CWD=$(pwd)
+export MAINDIR="/data/data/hilled.pwnterm/files/usr/share/psf"
+export TMPDIR=/data/data/hilled.pwnterm/files/usr/tmp/psf
+rm -rf $TMPDIR
+
+# Uninstall old psf
+rm -rf ${MAINDIR}
+
+function get_source {
+START
+mkdir -p ${MAINDIR}
+cd ${MAINDIR}
+git clone https://github.com/abhackerofficial/pentesting-framework.git --depth=1
+cp -rf pentesting-framework/* .
+rm -rf pentesting-framework
+}
+
+function merge_shebang {
+mkdir -p $TMPDIR
+cp -rf * $TMPDIR
+sleep 5
+# https://stackoverflow.com/a/47815249
+## /usr/bin to /data/data/hilled.pwnterm/files/usr/bin
+find $TMPDIR/ -type f -exec sed -i 's+!/usr/bin+!/data/data/hilled.pwnterm/files/usr/bin+g' {} +
+sleep 5
+## com.termux to hilled.pwnterm
+find $TMPDIR/ -type f -exec sed -i 's+com.termux+hilled.pwnterm+g' {} +
+sleep 5
+## /bin to /data/data/hilled.pwnterm/files/usr/bin
+find $TMPDIR/ -type f -exec sed -i 's+!/bin+!/data/data/hilled.pwnterm/files/usr/bin+g' {} +
+}
+
+function installing {
+prefix1=/data/data/hilled.pwnterm/files/usr
+cp -rf $TMPDIR/* $prefix1/share/psf
+rm -rf $TMPDIR
+
+# Script to Launch PSF
+rm -rf /data/data/hilled.pwnterm/files/usr/bin/psfconsole
+cat <<EOF > /data/data/hilled.pwnterm/files/usr/bin/psfconsole
+#!/data/data/hilled.pwnterm/files/usr/bin/bash
+cd /data/data/hilled.pwnterm/files/usr/share/psf
+./psfconsole '$@'
+EOF
+
+chmod +x /data/data/hilled.pwnterm/files/usr/bin/psfconsole
+COMPLETE
+}
+
+# Psf Main Installer
+
+get_source
+merge_shebang
+installing
