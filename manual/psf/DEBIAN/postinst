@@ -98,7 +98,7 @@ rm -rf /data/data/hilled.pwnterm/files/usr/bin/psfconsole
 cat <<EOF > /data/data/hilled.pwnterm/files/usr/bin/psfconsole
 #!/data/data/hilled.pwnterm/files/usr/bin/bash
 cd /data/data/hilled.pwnterm/files/usr/share/psf
-./psfconsole '$@'
+./psfconsole \${@}
 EOF
 
 chmod +x /data/data/hilled.pwnterm/files/usr/bin/psfconsole

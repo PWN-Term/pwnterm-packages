@@ -1,0 +1,3 @@
+#!/data/data/hilled.pwnterm/files/usr/bin/bash
+
+/data/data/hilled.pwnterm/files/usr/share/android-sdk/tools/bin/avdmanager "$@"

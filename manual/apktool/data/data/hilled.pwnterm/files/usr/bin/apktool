@@ -1,9 +1,10 @@
 #!/data/data/hilled.pwnterm/files/usr/bin/sh
 
 sdk=$(getprop ro.build.version.sdk)
+SDK=$sdk
 PFX=/data/data/hilled.pwnterm/files/usr
 
 java -jar $PFX/lib/apktool.jar\
-	$@ \
 	-p /system/framework/framework-res.apk \
-	-r
+	-r \
+	$@
