@@ -1,4 +1,4 @@
-#!/data/data/hilled.pwnterm/files/usr/bin/env python
+#!/data/data/hilled.pwnterm/files/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 2019-03-27 05-55
 

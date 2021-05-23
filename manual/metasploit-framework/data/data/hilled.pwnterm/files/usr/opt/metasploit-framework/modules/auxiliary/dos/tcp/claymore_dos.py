@@ -1,6 +1,5 @@
-#!/data/data/hilled.pwnterm/files/usr/bin/env python
+#!/data/data/hilled.pwnterm/files/usr/bin/env python3
 # -*- coding: utf-8 -
-# Note, works with both python 2.7 and 3
 
 
 import socket
