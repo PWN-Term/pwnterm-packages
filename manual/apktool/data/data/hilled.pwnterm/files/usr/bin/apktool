@@ -2,9 +2,9 @@
 
 sdk=$(getprop ro.build.version.sdk)
 SDK=$sdk
-PFX=/data/data/hilled.pwnterm/files/usr
+PFX=/data/data/hilled.pwnterm/files/usr/share/apktool
 
-java -jar $PFX/lib/apktool.jar\
-	-p /system/framework/framework-res.apk \
+java -jar $PFX/apktool.jar\
+	-p /data/data/hilled.pwnterm/files/usr/share/apktool/framework \
 	-r \
 	$@

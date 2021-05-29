@@ -14,6 +14,9 @@ dpkg-deb --build psf
 dpkg-deb --build gradle
 dpkg-deb --build android-sdk-build-tools
 dpkg-deb --build ant
+dpkg-deb --build l3mon
+dpkg-deb --build iptables
+dpkg-deb --build libnftables
 
 echo "Untarring jdk-11 as github dosent like 100mb+ files"
 tar -xf openjdk-jdk11.tar.gz
