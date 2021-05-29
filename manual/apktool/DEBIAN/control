@@ -1,7 +1,0 @@
-Package: apktool
-Version: 2.5.0-1
-Architecture: all
-Homepages: http://penyon.info
-Description: Android everse engineering 
-Depends: aapt, bash, base, openjdk-jdk11, unzip
-Maintainer: @Lexiie

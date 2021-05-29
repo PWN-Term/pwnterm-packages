@@ -1,9 +1,0 @@
-#!/data/data/hilled.pwnterm/files/usr/bin/bash
-
-# Cd into msf and start bundle install
-cd /data/data/hilled.pwnterm/files/usr/opt/metasploit-framework
-
-echo "Postinstall for metasploit..."
-sleep 5
-bundle install && bash -c "msfdb init"
-echo "Done..."

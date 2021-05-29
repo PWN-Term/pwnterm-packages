@@ -1,0 +1,10 @@
+Package: libnftnl
+Version: 1.2.0
+Architecture: aarch64
+Maintainer: Hilledkinged
+Installed-Size: 30000
+Depends: base, libnfs
+Section: misc
+Priority: optional
+Homepage: http://git.netfilter.org/libnftnl/
+Description: nftables is a subsystem of the Linux kernel providing filtering and classification of network packets/datagrams/frames..

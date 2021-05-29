@@ -1,29 +1,35 @@
 #!/bin/bash
-echo "Cleaning old debs (In case of bad exit)"
-rm -rf *.deb
+echo "[!] Building new packages"
 
-echo "Building new packages"
-dpkg-deb --build apktool
-dpkg-deb --build metasploit-framework
-dpkg-deb --build neofetch
-dpkg-deb --build ngrok
-dpkg-deb --build msfpc
-dpkg-deb --build android-pin-bruteforce
-dpkg-deb --build john
-dpkg-deb --build psf
-dpkg-deb --build gradle
-dpkg-deb --build android-sdk-build-tools
-dpkg-deb --build ant
-dpkg-deb --build l3mon
-dpkg-deb --build iptables
-dpkg-deb --build libnftables
+echo "[-] building android-sdk"
+cd android-sdk
+./build.sh
+cd ..
 
-echo "Untarring jdk-11 as github dosent like 100mb+ files"
-tar -xf openjdk-jdk11.tar.gz
-dpkg-deb --build openjdk-jdk11
-rm -rf openjdk-jdk11
+echo "[-] building compilers"
+cd compilers
+./build.sh
+cd ..
 
-mkdir -p ../debs
-mv -f *.deb ../debs
-echo "All packages are moved to ../debs"
+echo "[-] building libs"
+cd libs
+./build.sh
+cd ..
+
+echo "[-] building pentest tools"
+cd pentest
+./build.sh
+cd ..
+
+echo "[-] building server tools"
+cd servers
+./build.sh
+cd ..
+
+echo "[-] building usual tools"
+cd tools
+./build.sh
+cd ..
+
+echo "[!] All packages are done"
 

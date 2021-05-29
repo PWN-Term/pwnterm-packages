@@ -1,0 +1,11 @@
+Package: android-sdk-build-tools
+Version: 7302050-3
+Architecture: aarch64
+Maintainer: Hilledkinged
+Installed-Size: 30000
+Depends: base, openjdk-jdk11, clang, android-sdk-tools
+Section: misc
+Priority: optional
+Homepage: https://github.com/Lzhiyong/termux-ndk
+Description: Android sdk that includes some build-tools for arm64 (Android).
+

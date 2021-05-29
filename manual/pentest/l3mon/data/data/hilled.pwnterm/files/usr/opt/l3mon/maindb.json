@@ -1,0 +1,12 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "7b24afc8bc80e548d66c4e7ff72171c5",
+    "loginToken": "7b24afc8bc80e548d66c4e7ff72171c5",
+    "logs": [
+    ],
+    "ipLog": []
+  },
+  "clients": [
+  ]
+}

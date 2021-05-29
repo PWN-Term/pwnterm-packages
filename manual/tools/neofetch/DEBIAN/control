@@ -1,0 +1,9 @@
+Package: neofetch
+Version: 1.0.1
+Architecture: aarch64
+Maintainer: Hilledkinged
+Installed-Size: 2100
+Depends: apt, wget, coreutils, bash
+Priority: optional
+Homepage: http://www.google.com
+Description: Neoterm

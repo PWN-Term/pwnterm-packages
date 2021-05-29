@@ -1,7 +1,0 @@
-#MSF
-find . -type f -exec sed -i 's+!/usr/bin+!/data/data/hilled.pwnterm/files/usr/bin+g' {} +
-find . -type f -exec sed -i 's+!/usr/etc+!/data/data/hilled.pwnterm/files/usr/etc+g' {} +
-find . -type f -exec sed -i 's+!/etc+!/data/data/hilled.pwnterm/files/etc+g' {} +
-find . -type f -exec sed -i 's+!/bin+!/data/data/hilled.pwnterm/files/usr/bin+g' {} +
-find . -type f -exec sed -i 's+!/usr/lib+!/data/data/hilled.pwnterm/files/usr/lib+g' {} +
-find . -type f -exec sed -i 's+!/lib+!/data/data/hilled.pwnterm/files/usr/lib+g' {} +

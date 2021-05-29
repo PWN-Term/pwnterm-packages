@@ -1,1 +1,0 @@
-/data/data/hilled.pwnterm/files/usr/opt/metasploit-framework/msf-json-rpc.ru

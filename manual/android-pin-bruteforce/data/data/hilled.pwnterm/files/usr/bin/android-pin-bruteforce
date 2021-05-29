@@ -1,4 +1,0 @@
-#!/data/data/hilled.pwnterm/files/usr/bin/bash
-
-cd /data/data/hilled.pwnterm/files/usr/share/android-pin-bruteforce/
-./android-pin-bruteforce "$@"

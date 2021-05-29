@@ -1,0 +1,13 @@
+#!/data/data/hilled.pwnterm/files/usr/bin/bash
+
+cd /data/data/hilled.pwnterm/files/usr/share/apktool
+mkdir framework
+cd framework
+
+echo "Postinstall for apktool..."
+cp /system/framework/framework-res.apk framework.apk
+unzip framework.apk
+rm framework.apk
+sleep 1
+
+echo "Done..."

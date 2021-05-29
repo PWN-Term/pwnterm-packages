@@ -1,3 +1,0 @@
-#!//data/data/hilled.pwnterm/files/usr/bin/bash
-cd /data/data/hilled.pwnterm/files/usr/opt/spigot
-java -Xms1G -Xmx1G -jar spigot.jar nogui

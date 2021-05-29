@@ -1,0 +1,10 @@
+Package: iptables
+Version: 1.8.7
+Architecture: aarch64
+Maintainer: Hilledkinged
+Installed-Size: 30000
+Depends: base, libnftnl, libnfs
+Section: misc
+Priority: optional
+Homepage: https://gitlab.com/pwn-hunter/packages/iptables/-/tree/pwn
+Description: iptables is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall, implemented as different Netfilter modules.
