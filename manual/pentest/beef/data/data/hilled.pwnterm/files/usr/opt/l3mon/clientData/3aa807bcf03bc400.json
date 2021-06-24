@@ -1,0 +1,255 @@
+{
+  "clientID": "3aa807bcf03bc400",
+  "CommandQue": [],
+  "SMSData": [],
+  "CallData": [],
+  "contacts": [],
+  "wifiNow": [],
+  "wifiLog": [],
+  "clipboardLog": [],
+  "notificationLog": [],
+  "enabledPermissions": [],
+  "apps": [],
+  "GPSData": [],
+  "GPSSettings": {
+    "updateFrequency": 0
+  },
+  "downloads": [],
+  "currentFolder": [
+    {
+      "name": "../",
+      "isDir": true,
+      "path": "/storage/emulated"
+    },
+    {
+      "name": "nh_files",
+      "isDir": true,
+      "path": "/storage/emulated/0/nh_files"
+    },
+    {
+      "name": "starce_log.txt",
+      "isDir": false,
+      "path": "/storage/emulated/0/starce_log.txt"
+    },
+    {
+      "name": "DCIM",
+      "isDir": true,
+      "path": "/storage/emulated/0/DCIM"
+    },
+    {
+      "name": "29.0.3.tar.xz",
+      "isDir": false,
+      "path": "/storage/emulated/0/29.0.3.tar.xz"
+    },
+    {
+      "name": "untitled.txt",
+      "isDir": false,
+      "path": "/storage/emulated/0/untitled.txt"
+    },
+    {
+      "name": "Download",
+      "isDir": true,
+      "path": "/storage/emulated/0/Download"
+    },
+    {
+      "name": "app-debug.apk",
+      "isDir": false,
+      "path": "/storage/emulated/0/app-debug.apk"
+    },
+    {
+      "name": "DuboxDownloads",
+      "isDir": true,
+      "path": "/storage/emulated/0/DuboxDownloads"
+    },
+    {
+      "name": "Notifications",
+      "isDir": true,
+      "path": "/storage/emulated/0/Notifications"
+    },
+    {
+      "name": "apktool",
+      "isDir": false,
+      "path": "/storage/emulated/0/apktool"
+    },
+    {
+      "name": "dok-1",
+      "isDir": true,
+      "path": "/storage/emulated/0/dok-1"
+    },
+    {
+      "name": "Pictures",
+      "isDir": true,
+      "path": "/storage/emulated/0/Pictures"
+    },
+    {
+      "name": "l.zip",
+      "isDir": false,
+      "path": "/storage/emulated/0/l.zip"
+    },
+    {
+      "name": "fw",
+      "isDir": true,
+      "path": "/storage/emulated/0/fw"
+    },
+    {
+      "name": "dubox",
+      "isDir": true,
+      "path": "/storage/emulated/0/dubox"
+    },
+    {
+      "name": "lib",
+      "isDir": true,
+      "path": "/storage/emulated/0/lib"
+    },
+    {
+      "name": "apktool.txt",
+      "isDir": false,
+      "path": "/storage/emulated/0/apktool.txt"
+    },
+    {
+      "name": "wine.deb",
+      "isDir": false,
+      "path": "/storage/emulated/0/wine.deb"
+    },
+    {
+      "name": "android-meterpreter-stageless-reverse-tcp-443.apk",
+      "isDir": false,
+      "path": "/storage/emulated/0/android-meterpreter-stageless-reverse-tcp-443.apk"
+    },
+    {
+      "name": "Movies",
+      "isDir": true,
+      "path": "/storage/emulated/0/Movies"
+    },
+    {
+      "name": "apktool.jar",
+      "isDir": false,
+      "path": "/storage/emulated/0/apktool.jar"
+    },
+    {
+      "name": "Android",
+      "isDir": true,
+      "path": "/storage/emulated/0/Android"
+    },
+    {
+      "name": "time4popcorn",
+      "isDir": true,
+      "path": "/storage/emulated/0/time4popcorn"
+    },
+    {
+      "name": "Audiobooks",
+      "isDir": true,
+      "path": "/storage/emulated/0/Audiobooks"
+    },
+    {
+      "name": "rec.raw",
+      "isDir": false,
+      "path": "/storage/emulated/0/rec.raw"
+    },
+    {
+      "name": "kali",
+      "isDir": false,
+      "path": "/storage/emulated/0/kali"
+    },
+    {
+      "name": "Snapchat",
+      "isDir": true,
+      "path": "/storage/emulated/0/Snapchat"
+    },
+    {
+      "name": "LuckyPatcher",
+      "isDir": true,
+      "path": "/storage/emulated/0/LuckyPatcher"
+    },
+    {
+      "name": "Ringtones",
+      "isDir": true,
+      "path": "/storage/emulated/0/Ringtones"
+    },
+    {
+      "name": "bashrc",
+      "isDir": false,
+      "path": "/storage/emulated/0/bashrc"
+    },
+    {
+      "name": "Telegram",
+      "isDir": true,
+      "path": "/storage/emulated/0/Telegram"
+    },
+    {
+      "name": "key",
+      "isDir": false,
+      "path": "/storage/emulated/0/key"
+    },
+    {
+      "name": "bash.bashrc",
+      "isDir": false,
+      "path": "/storage/emulated/0/bash.bashrc"
+    },
+    {
+      "name": "backups",
+      "isDir": true,
+      "path": "/storage/emulated/0/backups"
+    },
+    {
+      "name": "test",
+      "isDir": true,
+      "path": "/storage/emulated/0/test"
+    },
+    {
+      "name": "libc6.deb",
+      "isDir": false,
+      "path": "/storage/emulated/0/libc6.deb"
+    },
+    {
+      "name": "ct",
+      "isDir": true,
+      "path": "/storage/emulated/0/ct"
+    },
+    {
+      "name": "Alarms",
+      "isDir": true,
+      "path": "/storage/emulated/0/Alarms"
+    },
+    {
+      "name": "bluebinder_installer.sh",
+      "isDir": false,
+      "path": "/storage/emulated/0/bluebinder_installer.sh"
+    },
+    {
+      "name": "Documents",
+      "isDir": true,
+      "path": "/storage/emulated/0/Documents"
+    },
+    {
+      "name": "Music",
+      "isDir": true,
+      "path": "/storage/emulated/0/Music"
+    },
+    {
+      "name": "Podcasts",
+      "isDir": true,
+      "path": "/storage/emulated/0/Podcasts"
+    },
+    {
+      "name": "push_link_info.xml",
+      "isDir": false,
+      "path": "/storage/emulated/0/push_link_info.xml"
+    },
+    {
+      "name": "com.musicplayer.playermusic",
+      "isDir": true,
+      "path": "/storage/emulated/0/com.musicplayer.playermusic"
+    },
+    {
+      "name": "nethunter",
+      "isDir": false,
+      "path": "/storage/emulated/0/nethunter"
+    },
+    {
+      "name": "TWRP",
+      "isDir": true,
+      "path": "/storage/emulated/0/TWRP"
+    }
+  ]
+}
