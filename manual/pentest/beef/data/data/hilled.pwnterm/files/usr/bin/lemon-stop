@@ -1,3 +1,0 @@
-#!/data/data/hilled.pwnterm/files/usr/bin/bash
-cd /data/data/hilled.pwnterm/files/usr/opt/l3mon
-pm2 stop index.js
